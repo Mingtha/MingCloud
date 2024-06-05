@@ -1,14 +1,1 @@
-#include <iostream>
-using namespace ::std;
-
-int main()
-{
-    /*
-     * 指针指向内存中的某个对象, 引用绑定到内存中的某个对象
-     * 指针本身就是一个对象, 引用不是一个对象
-     * 指针无需在定义时初始化, 引用必须初始化
-     * just test
-     * asdasdasdasd
-     */
-}
-213
+<\d{3}>%{SYSLOGTIMESTAMP:trigger_time} (?<device_sn>[\dA-Z]+?)\(root\) 460c9413 (?<traffic_type>Threat)@(?<traffic_sub_type>[A-Z]+?): 从\[?%{IP:src_ip}\]?:(?<src_port>\d+?)\((?<src_intf>.+?)\)到\[?%{IP:dst_ip}\]?:(?<dst_port>\d+?)\((?<dst_intf>.+?)\)，威胁名称：(?<threat_name>.+?)，威胁类型：(?<threat_type>.+?)，威胁子类型：(?<threat_sub_name>.+?)，应用/协议：(?<protocol>.+?
