@@ -25,6 +25,6 @@ console.log('你好伙计');
 
 console.log('abc');
 
-$notify('打卡', '小打卡', body);
+// $notify('打卡', '小打卡', body);
 
-$done(body);
+$done();
