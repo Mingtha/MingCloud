@@ -22,7 +22,7 @@
 
 // body = JSON.stringify(obj);
 
-// console.log('abc');
+console.log('abc');
 
 $notify('打卡', '小打卡', body);
 
