@@ -21,7 +21,7 @@
 // var obj = JSON.parse(body);
 
 // body = JSON.stringify(obj);
-asd;
+console.log('你好伙计');
 
 console.log('abc');
 
