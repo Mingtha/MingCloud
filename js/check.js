@@ -22,6 +22,8 @@ var obj = JSON.parse(body);
 
 body = JSON.stringify(obj);
 
+console.log('abc');
+
 $notify('打卡', '小打卡', body);
 
 $done(body);
