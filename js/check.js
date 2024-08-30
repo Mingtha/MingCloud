@@ -20,7 +20,6 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj['result'] = 0;
 body = JSON.stringify(obj);
 
 $notify('打卡', '小打卡', body);
