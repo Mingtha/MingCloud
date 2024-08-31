@@ -17,14 +17,14 @@
 // You can optional change the response headers at the same time by using $done({body: modifiedBody, headers: modifiedHeaders}); only change the response headers is not allowed for script-response-body. The modifiedHeaders can be copied and modified from $response.headers, please do not change the content length, type and encoding field.
 // Response status can also be optional changed by using $done({body: modifiedBody, headers: modifiedHeaders, status: modifiedStatus}), the modifiedStatus should be like "HTTP/1.1 200 OK"
 
-// var body = $response.body;
-// var obj = JSON.parse(body);
+var body = $response.body;
+var obj = JSON.parse(body);
 
-// body = JSON.stringify(obj);
-console.log('你好伙计');
+body = JSON.stringify(obj);
 
-console.log('abc');
 
-// $notify('打卡', '小打卡', body);
+console.log(body);
 
-$done();
+$notify('打卡', '小打卡', body);
+
+$done(body);
