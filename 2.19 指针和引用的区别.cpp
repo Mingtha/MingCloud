@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/Mingtha/Tencent-SCF/main/QuantumultX/check.js?token=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
+
